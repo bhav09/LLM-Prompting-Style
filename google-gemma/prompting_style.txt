@@ -1,0 +1,22 @@
+<start_of_turn>user
+{SYSTEM PROMPT}
+
+{INSTRUCTION}
+<end_of_turn>
+
+Few examples: 
+<start_of_turn> user
+INPUT 1
+<end_of_turn>
+
+<start_of_turn> model
+INPUT 1
+<end_of_turn>
+
+<start_of_turn> user
+What is Cramer's Rule?
+<end_of_turn>
+
+<start_of_turn>model
+Cramer's Rule is ...
+<end_of_turn>
