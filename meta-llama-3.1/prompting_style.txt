@@ -1,0 +1,11 @@
+<|begin_of_text|><|start_header_id|>user<|end_header_id|>
+{SYSTEM PROMPT}
+
+{INSTRUCTION}
+
+Input: INPUT 1
+Output: OUTPUT 1
+
+Input: {INPUT}
+Output:
+<|eot_id|><|start_header_id|>assistant<|end_header_id|>
