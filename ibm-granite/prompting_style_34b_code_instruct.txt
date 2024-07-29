@@ -1,0 +1,10 @@
+Question:
+{INSTRUCTION}
+
+Input: Input 1
+Output: Output 1
+
+Input: {INPUT}
+Output:
+
+Answer:
