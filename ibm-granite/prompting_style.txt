@@ -1,0 +1,16 @@
+<|system|>
+
+ {SYSTEM PROMPT}
+ 
+<|user|>
+{INSTRUCTION}
+
+Here are some examples, complete the last one:
+
+Input: INPUT 1
+Output: OUTPUT 1
+
+Input: {INPUT}
+Output:
+
+<|assistant|>
