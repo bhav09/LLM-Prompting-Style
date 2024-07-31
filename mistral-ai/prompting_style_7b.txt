@@ -1,7 +1,26 @@
-{INSTRUCTION}
+<s>
+[INST] Instruction [/INST] 
+Model answer</s>
+[INST] Follow-up instruction [/INST]
 
-Input: Input 1
-Output: Output 1
 
-Input: {INPUT}
-Output:
+
+---------------------- EXAMPLE - NOT A PART OF THE TEMPLATE ----------------------
+Simple Mistral Prompt:
+
+<s>[INST] Capital of France? [/INST] 
+
+
+For Conversation:
+
+
+1: Start off with initial question
+<s>[INST] Capital of France [/INST] 
+
+Answer from Model:
+
+Capital of France is Paris
+
+2: Add the answer from model to the Prompt with the follow up/successor question/instruction inside [INST] and [/INST] tags
+
+<s>[INST] Capital of France [/INST] Capital of France is Paris [INST] what are the popular landmarks of Paris [/INST]
