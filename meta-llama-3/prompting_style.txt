@@ -1,12 +1,31 @@
-<|begin_of_text|><|start_header_id|>user<|end_header_id|>
-{SYSTEM PROMPT}
+<|begin_of_text|>
 
-{INSTRUCTION}
+<|start_header_id|>system<|end_header_id|>
 
-Input: INPUT 1
-Output: OUTPUT 1
+{system_prompt}<|eot_id|>
 
-Input: {INPUT}
-Output:
-<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+<|start_header_id|>user<|end_header_id|>
 
+{user_prompt/query}<|eot_id|>
+
+<|start_header_id|>assistant<|end_header_id|>
+
+
+
+---------------------- EXAMPLE - NOT A PART OF THE TEMPLATE ----------------------
+
+
+<|begin_of_text|>
+
+<|start_header_id|>system<|end_header_id|>
+You are a sentiment classifier. For each message, give the percentage of positive/netural/negative. Here are some samples:
+Text: I liked it
+Sentiment: 70% positive 30% neutral 0% negative
+Text: It could be better
+Sentiment: 0% positive 50% neutral 50% negative
+Text: It's fine
+Sentiment: 25% positive 50% neutral 25% negative<|eot_id|>
+
+<|start_header_id|>user<|end_header_id|>
+Text: I loved it!<|eot_id|>
+<|start_header_id|>assistant<|end_header_id|>
